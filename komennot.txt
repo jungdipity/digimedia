@@ -1,0 +1,20 @@
+terminaaliin?
+
+git init
+    - luodaan repository
+    - vain ekalla kerralla
+
+git add .
+    - lisää kaikki tiedostot (paitsi ignore) "areenalle"?
+
+git commit -m jotain
+    - committaa "areenalla" olevat tiedostot
+    - -m = message
+    - jotain = mitä on muutettu, yms, yms
+
+git remote add origin https://github.com/jungdipity/digimedia.git
+    - lisätään github repon osoite
+
+git push -u origin master
+    - ensimmäistä kertaa pushatessa commitatut tiedostot ^^ osoitteeseen
+    - jatkossa vain git push
